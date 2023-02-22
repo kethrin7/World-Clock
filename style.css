@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #31285C;
+    max-width: 1280px;
+    height: auto;
+    background-image: url(./assets/world-earth-planet-globe-45208.jpeg);
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.divTime{
+    align-items: center;
+    border-radius: 10px;
+    background-color:transparent;
+    border: 2px solid antiquewhite;
+    color: antiquewhite;
+    justify-content: center;
+    margin: 5px 5px 5px 100px;
+    text-align: center;
+    padding:20px;
+    width: 30rem;
+}
+
